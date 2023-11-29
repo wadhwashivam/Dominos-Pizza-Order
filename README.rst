@@ -1,4 +1,4 @@
-# Domino's Pizza Ordering System
+#Domino's Pizza Ordering System
 
 ## Introduction
 This Python-based Domino's Pizza Ordering System allows users to interactively browse the menu, add items to their order, and place an order for delivery or pickup. The system uses the pizzapy library and integrates an API created by the developer @Magicjarvis.
