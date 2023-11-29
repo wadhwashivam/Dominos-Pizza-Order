@@ -1,33 +1,28 @@
-pizzapy
-=======
+# Domino's Pizza Ordering System
 
-*This has been forked from @Magicjarvis the readme below is the same as his repository..* 
+## Introduction
+This Python-based Domino's Pizza Ordering System allows users to interactively browse the menu, add items to their order, and place an order for delivery or pickup. The system uses the pizzapy library and integrates an API created by the developer @Magicjarvis.
 
-Disclaimer
------------
-This is my fork of https://github.com/gamagori/pizzapi
-It's heavily modified and not well documented, but i'm going to get to that. the below example should work though.
+## Getting Started
 
-sorry! was kind of in a rush this morning.
-
-Setup
+## Setup
 -----
 
-1. install python3
-2. download this repository
-3. install the requirements of the repository `pip install -r requirements.txt`
-4. start a python3 interpreter inside of the folder called pizzapy
-5. have fun
+1. Install python3
+2. Download this repository
+3. Install the requirements of the repository `pip install -r requirements.txt`
+4. Start a python3 interpreter inside of the folder called pizzapy
+5. Have fun
 
 
-Description
+## Description
 -----------
 
 This is a Python wrapper for the Dominos Pizza API.
 
 It's a port of `the pizzapi node.js module <https://github.com/RIAEvangelist/node-dominos-pizza-api>`_ written by `RIAEvangelist <https://github.com/RIAEvangelist>`_.
 
-Quick Start
+## Quick Start
 -----------
 
 First construct a ``Customer`` object and set the customer's address:
@@ -93,3 +88,47 @@ And that's it! Now you can place your order.
 
     order.place(card)
     my_local_dominos.place_order(order, card)
+
+
+### Prerequisites
+- Ensure you have Python installed on your system.
+- Install the required library using the following command:
+    ```
+    pip install pizzapy
+    ```
+
+### Running the Application
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run the application using the following command:
+    ```
+    python app.py
+    ```
+
+## Usage
+
+1. The application will prompt you to enter your details and search for the nearest Domino's store.
+2. You can interactively search the menu and add items to your order.
+3. Review your order and choose the payment method (Cash or Credit Card).
+4. Confirm if you would like to place the order.
+
+## Code Structure
+
+- The main run file is `app.py`.
+- The application utilizes the pizzapy library, and specific functionalities are encapsulated within functions like `searchMenu` and `addToOrder`.
+- The user is prompted to enter details, select items, and place the order.
+
+```python
+# Insert the provided code here
+```
+
+## Credits
+
+- This application utilizes the pizzapy library.
+- The API used in this application is created by the developer @Magicjarvis.
+
+## Acknowledgments
+
+Thank you to the developers of pizzapy and @Magicjarvis for their contributions to this project.
+
+Feel free to reach out to the developer for any questions or improvements!
